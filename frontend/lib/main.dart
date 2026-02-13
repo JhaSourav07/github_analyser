@@ -4,7 +4,6 @@ import 'package:frontend/features/audit/presentations/screens/audit_screen.dart'
 
 void main() {
   runApp(
-    // ProviderScope is required for Riverpod to work
     const ProviderScope(
       child: MyApp(),
     ),
